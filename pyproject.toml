@@ -1,0 +1,16 @@
+[project]
+name = "condorai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "pydantic>=2.11.2",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "uvicorn>=0.34.0",
+]
