@@ -7,7 +7,7 @@ from pathlib import Path
 FMP_API_KEY = os.environ.get("FMP_API_KEY", None)
 if FMP_API_KEY is None:
     raise Exception("FMP_API_KEY is required")
-api_client = FinancialModelingPrepClient(api_key="HHkQADZfxmBxMyxB3doGndbgX57Ohj9q")
+api_client = FinancialModelingPrepClient(api_key=FMP_API_KEY)
 #%%
 SAMPLE_TICKERS = [
     'AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOG',
