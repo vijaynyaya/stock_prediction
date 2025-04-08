@@ -16,7 +16,7 @@ This project implements a FastAPI application that predicts whether a stock's pr
 ## Project Structure
 
 ```
-stock-price-direction-predictor/
+stock_prediction/
 ├── app/                  # Application code
 │   ├── __init__.py
 │   └── main.py           # FastAPI application
@@ -45,8 +45,8 @@ stock-price-direction-predictor/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vijaynyaya/stock-price-direction-predictor.git
-cd stock-price-direction-predictor
+git clone https://github.com/vijaynyaya/stock_prediction.git
+cd stock_prediction
 ```
 
 ### 2. Set up the environment with astral-uv
